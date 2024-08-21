@@ -26,7 +26,9 @@
               colors: {
                 clifford: '#da373d',
                 'rinterio': '#ABEF5F',
-                'color':'#737373'
+                'color':'#737373',
+                 'icon':'#d4f6ae',
+                 'bold':'font-extrabold'
               }
             }
           }
@@ -35,7 +37,7 @@
 </head>
 
 <body>
-    <main class="container mx-auto bg-rinterio font-manrope">
+    <main class="container mx-auto font-manrope">
         <header>                
             <nav>
               <div class="navbar bg-base-100 flex items-center justify-beewtine">
@@ -76,8 +78,8 @@
                       <i class="fa-solid fa-cart-shopping"></i>                      
                     </div>
                   </button>
-                  <div class="ml-4 bg-rinterio px-4 py-3 font-extrabold rounded-full">                    
-                      <button>Book Consult
+                  <div class="ml-4 btn btn-ghost bg-rinterio px-4 py-3 font-extrabold rounded-full">                    
+                      <button class="show">Book Consult
                         <i class="fa-solid fa-arrow-right bg-black text-white p-2 -rotate-45 rounded-full"></i>
                       </button>                   
                   </div>
@@ -107,11 +109,25 @@
             </nav> 
         </header>
         <section>
+          <div>
+            <div class="mx-auto flex justify-center">
+              <img src="./assets/banner.png" alt="">
+            </div>
+            <div class="w-3/5 mx-auto flex items-center flex-col">
+              <h2 class="text-4xl text-center font-bold my-4">A barn house of this design has a striking appearance</h2>
+              <p class="text-center mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+              <div class="ml-4 btn btn-ghost bg-icon px-4 py-3 font-bold rounded-full">                    
+                <button class="show">View Details 
+                   <i class="fa-solid fa-arrow-right bg-rinterio text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
+                </button>                   
+            </div>
+            </div>
+          </div>
            
         </section>
     </main>
     <footer>
-       
+ 
     </footer>
 </body>
 
