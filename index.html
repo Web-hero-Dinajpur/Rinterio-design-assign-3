@@ -36,7 +36,7 @@
   </script>
 </head>
 
-<body>
+<body class="overflow-x-hidden p-0 m-0">
   <main class="container mx-auto font-manrope">
     <header>
       <nav>
@@ -391,67 +391,80 @@
     </div>
   </section>
   <!-- our news section done  -->
-  <!-- <section class="font-manrope mt-2">
-    <div>
-      <div class="">
-        <img class="w-full h-[900px] absolute" src="./assets/bg.jpg" alt="">
-      </div>
-      <div class="container mx-auto relative">
+  <div class="hero min-h-screen mt-2 pb-24" style="background-image: url(./assets/bg.jpg);">
+    <div class="container mx-auto mt-20">
+      <div>
         <div>
-          <div class="pt-20">
-            <button class="bg-[#eefcdf] rounded-full px-6 py-3 mx-auto flex font-bold my-6 items-center"><i
-                class="fa-solid fa-arrow-right mr-1"></i>
-              Let’s Connect
+          <button class="bg-[#eefcdf] rounded-full px-6 py-3 mx-auto flex font-bold my-6 items-center"><i
+              class="fa-solid fa-arrow-right mr-1"></i>
+            Let’s Connect
+          </button>
+        </div>
+        <div class="w-2/4 mx-auto text-center">
+          <h2 class="font-bold text-6xl">Let’s Discuss Next Project</h2>
+          <p class="mt-6 font-medium">The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+      </div>
+      <!-- header section done  -->
+      <div class="mt-16 w-3/4 mx-auto">
+        <div class="lg:flex items-center justify-beewtine gap-6 mb-6">
+          <label class="input flex items-center rounded-3xl mb-6 w-full p-8">
+            <input type="text" placeholder="First Name*" />
+          </label>
+          <label class="input flex items-center rounded-3xl p-8 mb-6 w-full">
+            <input type="text" placeholder="Last Name*" />
+          </label>
+        </div>
+        <div class="lg:flex items-center justify-beewtine gap-6">
+          <label class="input w-full flex items-center items-center mb-6   rounded-3xl p-8">
+            <input type="text" placeholder="Phone Number*" />
+          </label>
+          <label class="input w-full flex items-center rounded-3xl lg:-mt-6 p-8">
+            <input type="text" placeholder="Email Number*" />
+          </label>
+        </div>
+        <textarea placeholder="Write your message here"
+          class="textarea w-full textarea-lg  my-6 rounded-3xl h-48"></textarea>
+
+          <div class="ml-4 btn btn-ghost bg-icon px-4 py-3 font-bold rounded-full w-full">
+            <button class="show">Send Mail
+              <i class="fa-solid fa-arrow-right bg-black text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
             </button>
           </div>
-          <div class="w-2/4 mx-auto text-center">
-            <h2 class="font-bold text-6xl">Let’s Discuss Next Project</h2>
-            <p class="mt-6 font-medium">The barn house captivates with its blend of rustic charm and modern
-              sophistication, featuring weathered wood, sleek metal accents.</p>
-          </div>
-        </div>
       </div>
-    </div> -->
-  <!-- bg img  -->
-
-  </section>
-  <footer>
-    <div class="hero min-h-screen mt-2" style="background-image: url(./assets/bg.jpg);">
-      <div class="container mx-auto -mt-[100px]">
+ 
+    </div>
+  </div>
+  <footer class="py-24 bg-black">
+    <div class="w-3/6 mx-auto">
+      <div>
         <div>
-          <div>
-            <button class="bg-[#eefcdf] rounded-full px-6 py-3 mx-auto flex font-bold my-6 items-center"><i
-                class="fa-solid fa-arrow-right mr-1"></i>
-              Let’s Connect
-            </button>
-          </div>
-          <div class="w-2/4 mx-auto text-center">
-            <h2 class="font-bold text-6xl">Let’s Discuss Next Project</h2>
-            <p class="mt-6 font-medium">The barn house captivates with its blend of rustic charm and modern
-              sophistication, featuring weathered wood, sleek metal accents.</p>
+          <button class="text-white rounded-full px-6 py-3 mx-auto flex font-bold mr-2items-center"><i
+              class="fa-solid fa-arrow-right bg-rinterio text-black p-2 -mt-1 -rotate-45 rounded-full"></i>`  Rinterio
+          </button>
+        </div>
+        <div class="mx-auto text-center mt-6">
+          <p class=" text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="navbar-center mx-auto mt-10">
+          <div class="flex-none">
+            <ul class="px-1 text-[16px] text-color lg:flex lg:justify-between items-center text-center">
+              <li class=" hover:font-bold"><a>Home</a></li>
+              <li class=" hover:font-bold"><a>Services</a></li>
+              <li class=" hover:font-bold"><a>Portfolio</a></li>
+              <li class=" hover:font-bold"><a>Blogs</a></li>
+              <li class=" hover:font-bold"><a>Contact</a></li>
+            </ul>
           </div>
         </div>
-        <!-- header section done  -->
-        <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-16 w-3/4 mx-auto ">
-          <label class="input  items-center gap-2 rounded-3xl">
-            <input type="text" class="grow" placeholder="First Name" />
-          </label>
-          <label class="input  items-center gap-2 rounded-3xl">
-            <input type="text" class="grow" placeholder="Last Name" />
-          </label>
-          <label class="input  items-center gap-2 rounded-3xl">
-            <input type="text" class="grow" placeholder="Phone Number" />
-          </label>
-          <label class="input  items-center gap-2 rounded-3xl">
-            <input type="text" class="grow" placeholder="Email Number" />
-          </label>
-          <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg col-span-2 rounded-3xl h-48"></textarea>
+        <div class=" text-center mt-10">
+          <button class="bg-rinterio px-3 py-2 rounded-full font-bold mr-2">View Details
+            <i class="fa-solid fa-arrow-right bg-black text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
+          </button>
         </div>
       </div>
-
-
     </div>
   </footer>
 </body>
-
 </html>
