@@ -36,11 +36,11 @@
   </script>
 </head>
 
-<body class="overflow-x-hidden p-0 m-0">
+<body class=" p-0 m-0">
   <main class="container mx-auto font-manrope">
     <header>
       <nav>
-        <div class="navbar bg-base-100 flex items-center justify-beewtine">
+        <div class="navbar bg-base-100 flex justify-between items-center">
           <div class="navbar-start">
             <div class="flex items-center gap-2">
               <i class="fa-solid fa-arrow-right bg-rinterio p-2 -rotate-45 rounded-full"></i>
@@ -48,7 +48,8 @@
             </div>
           </div>
           <div class="navbar-center">
-            <div class="flex-none">
+            <!-- display: none; -->
+            <div class="flex-none lg:mr-56">
               <ul class="menu menu-horizontal px-1 text-[16px] text-color hover:text-black  invisible lg:visible">
                 <li class=" hover:font-bold"><a>Home</a></li>
                 <li class=" hover:font-bold"><a>Services</a></li>
@@ -56,6 +57,23 @@
                 <li class=" hover:font-bold"><a>Blogs</a></li>
                 <li class=" hover:font-bold"><a>Contact</a></li>
               </ul>
+              <!-- dropdown menu  -->
+              <div class="">
+                <div class="flex items-center justify-center ">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li class=" hover:font-bold"><a>Home</a></li>
+                      <li class=" hover:font-bold"><a>Services</a></li>
+                      <li class=" hover:font-bold"><a>Portfolio</a></li>
+                      <li class=" hover:font-bold"><a>Blogs</a></li>
+                      <li class=" hover:font-bold"><a>Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
             </div>
           </div>
           <div class="navbar-end invisible md:visible">
@@ -76,25 +94,7 @@
                 <i class="fa-solid fa-arrow-right bg-black text-white p-2 -rotate-45 rounded-full"></i>
               </button>
             </div>
-          </div>
-          <!-- dropdown menu bar only phone device only  -->
-          <div class="">
-            <div class="flex items-center flex-row">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <i class="fa-solid fa-bars"></i>
-                </div>
-                <ul tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li class=" hover:font-bold"><a>Home</a></li>
-                  <li class=" hover:font-bold"><a>Services</a></li>
-                  <li class=" hover:font-bold"><a>Portfolio</a></li>
-                  <li class=" hover:font-bold"><a>Blogs</a></li>
-                  <li class=" hover:font-bold"><a>Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          </div>          
           <!-- dropdown menu bar only phone device only  -->
         </div>
       </nav>
@@ -105,7 +105,8 @@
           <img src="./assets/banner.png" alt="">
         </div>
         <div class="w-3/5 mx-auto flex sm:items-center flex-col">
-          <h2 class="lg:text-6xl text-3xl text-center font-bold my-4">A barn house of this design has a striking appearance</h2>
+          <h2 class="lg:text-6xl text-3xl text-center font-bold my-4">A barn house of this design has a striking
+            appearance</h2>
           <p class="text-center mb-6 font-medium">The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with
             natural light.</p>
@@ -391,46 +392,48 @@
     <!---------------------------- 
                      extra section in bonus mark  
                                             ----------------->
-      <div class="container mx-auto my-20">
+    <div class="container mx-auto my-20">
+      <div>
         <div>
+          <button class="bg-[#eefcdf] rounded-full px-6 py-3 mx-auto flex font-bold my-6 items-center"><i
+              class="fa-solid fa-arrow-right mr-1"></i>
+            Extra section
+          </button>
+        </div>
+        <div class="w-2/4 mx-auto text-center">
+          <h2 class="font-bold lg:text-6xl text-3xl">Just Like Click, search & Find</h2>
+          <p class="mt-6 font-medium">The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!-- header section  -->
+        <div class="grid lg:grid-cols-2 grid-cols-1 mt-10 gap-6">
           <div>
-            <button class="bg-[#eefcdf] rounded-full px-6 py-3 mx-auto flex font-bold my-6 items-center"><i
-                class="fa-solid fa-arrow-right mr-1"></i>
-              Extra section
-            </button>
-          </div>
-          <div class="w-2/4 mx-auto text-center">
-            <h2 class="font-bold lg:text-6xl text-3xl">Just Like Click, search & Find</h2>
-            <p class="mt-6 font-medium">The barn house captivates with its blend of rustic charm and modern
-              sophistication, featuring weathered wood, sleek metal accents.</p>
-          </div>
-          <!-- header section  -->
-           <div class="grid lg:grid-cols-2 grid-cols-1 mt-10 gap-6">
-            <div>
-              <img class="rounded-full w-96 h-96" src="./assets/img4.png" alt="">
-              <div class="flex justify-center">
-                <img class="rounded-full w-48 h-48 -mt-12 ml-8" src="./assets/img3.png" alt="">
-              </div>
-              <img class="rounded-full w-60 h-60 -mt-24 ml-8" src="./assets/img5.png" alt="">
+            <img class="rounded-full w-96 h-96" src="./assets/img4.png" alt="">
+            <div class="flex justify-center">
+              <img class="rounded-full w-48 h-48 -mt-12 ml-8" src="./assets/img3.png" alt="">
             </div>
-            <!-- left bannar  -->
-            <div>
-              <h2 class="lg:text-6xl text-3xl font-bold mb-8">
-                We live on Digital Ear 2. We can help you in Our Expertise.
-              </h2>
-              <p class="mb-8 w-3/4">
-                Listing more then one: Enjoy full control over your advertisements, manage your entire space. Once ou list a property on our plateform, you only have to sit back and watch the world want it. <br> <br>
-                If you're looking for a real estate service that will operate as an extension to your family stay with us and seel.
-              </p>
-              <div class="btn btn-ghost bg-icon px-4 py-3 font-bold rounded-full ">
-                <button class="show">See How We Work
-                  <i class="fa-solid fa-arrow-right bg-black text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
-                </button>
-              </div>
+            <img class="rounded-full w-60 h-60 -mt-24 ml-8" src="./assets/img5.png" alt="">
+          </div>
+          <!-- left bannar  -->
+          <div>
+            <h2 class="lg:text-6xl text-3xl font-bold mb-8">
+              We live on Digital Ear 2. We can help you in Our Expertise.
+            </h2>
+            <p class="mb-8 w-3/4">
+              Listing more then one: Enjoy full control over your advertisements, manage your entire space. Once ou list
+              a property on our plateform, you only have to sit back and watch the world want it. <br> <br>
+              If you're looking for a real estate service that will operate as an extension to your family stay with us
+              and seel.
+            </p>
+            <div class="btn btn-ghost bg-icon px-4 py-3 font-bold rounded-full ">
+              <button class="show">See How We Work
+                <i class="fa-solid fa-arrow-right bg-black text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
+              </button>
             </div>
-           </div>
+          </div>
         </div>
       </div>
+    </div>
 
     <!--------------------- 
                       extra section in bonus mark 
@@ -473,13 +476,13 @@
         <textarea placeholder="Write your message here"
           class="textarea w-full textarea-lg  my-6 rounded-3xl h-48"></textarea>
 
-          <div class="ml-4 btn btn-ghost bg-icon px-4 py-3 font-bold rounded-full w-full">
-            <button class="show">Send Mail
-              <i class="fa-solid fa-arrow-right bg-black text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
-            </button>
-          </div>
+        <div class="ml-4 btn btn-ghost bg-icon px-4 py-3 font-bold rounded-full w-full">
+          <button class="show">Send Mail
+            <i class="fa-solid fa-arrow-right bg-black text-white p-2 -mt-1 -rotate-45 rounded-full"></i>
+          </button>
+        </div>
       </div>
- 
+
     </div>
   </div>
   <footer class="py-24 bg-black">
@@ -487,11 +490,12 @@
       <div>
         <div>
           <button class="text-white rounded-full px-6 py-3 mx-auto flex font-bold mr-2items-center"><i
-              class="fa-solid fa-arrow-right bg-rinterio text-black p-2 -mt-1 -rotate-45 rounded-full"></i>`  Rinterio
+              class="fa-solid fa-arrow-right bg-rinterio text-black p-2 -mt-1 -rotate-45 rounded-full"></i>` Rinterio
           </button>
         </div>
         <div class="mx-auto text-center mt-6">
-          <p class=" text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <p class=" text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication,
+            featuring weathered wood, sleek metal accents.</p>
         </div>
         <div class="navbar-center mx-auto mt-10">
           <div class="flex-none">
@@ -513,4 +517,5 @@
     </div>
   </footer>
 </body>
+
 </html>
